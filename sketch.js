@@ -25,7 +25,7 @@ function setup() {
 	}
 
 	//Create the Bodies Here.
-	ball = Bodies.circle(100,100,20,ball_options);
+	ball = Bodies.circle(260,100,20,ball_options);
 	World.add(world,ball);
 
 	groundObj = new Ground(width/2,670,width,20);
